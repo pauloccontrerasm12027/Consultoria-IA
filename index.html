@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inteligencia Artificial · Dr. Paulo César Contreras</title>
+  <title>Dr. Paulo Contreras · IPT Solution IA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(255, 255, 255, 0.92);
+      background: rgba(255, 255, 255, 0.94);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
     }
@@ -65,7 +65,7 @@
       align-items: center;
       gap: 8px;
     }
-    .nav-brand span { color: var(--brand); font-weight: 600; }
+    .nav-brand span { color: var(--brand); font-weight: 700; }
     .nav-links {
       display: flex;
       align-items: center;
@@ -94,11 +94,31 @@
       .nav-links a:not(.btn-nav) { display: none; }
     }
 
+    /* PÓSTER INICIAL DE BIENVENIDA */
+    .poster-wrapper {
+      background: #041326;
+      padding: 24px 20px 10px;
+    }
+    .poster-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(2, 132, 199, 0.28);
+      border: 1px solid rgba(56, 189, 248, 0.28);
+    }
+    .poster-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
     /* LAYOUT GENERAL */
     .section {
       max-width: 1140px;
       margin: 0 auto;
-      padding: 72px 20px;
+      padding: 64px 20px;
     }
     .section-soft {
       background: var(--bg-soft);
@@ -507,29 +527,36 @@
   <header class="navbar">
     <div class="nav-container">
       <a href="#inicio" class="nav-brand">
-        Dr. Paulo César Contreras <span>· Inteligencia Artificial</span>
+        Dr. Paulo Contreras <span>· IPT Solution IA</span>
       </a>
       <nav class="nav-links">
         <a href="#inicio">Inicio</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#faq">Preguntas frecuentes</a>
         <a href="#ubicanos">Ubícanos</a>
-        <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20C%C3%A9sar,%20me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20en%20Inteligencia%20Artificial." target="_blank" rel="noopener" class="btn-nav">Escríbenos</a>
+        <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20Contreras,%20me%20gustar%C3%ADa%20agendar%20una%20consultor%C3%ADa%20en%20IPT%20Solution%20IA." target="_blank" rel="noopener" class="btn-nav">Escríbenos</a>
       </nav>
     </div>
   </header>
 
+  <!-- PÓSTER DE BIENVENIDA AL PRINCIPIO DE LA PÁGINA -->
+  <div id="inicio" class="poster-wrapper">
+    <div class="poster-container">
+      <img src="./poster-ipt.jpg" alt="IPT Soluciones Digitales & IA - Transformando el futuro con tecnología, telecomunicaciones y salud">
+    </div>
+  </div>
+
   <!-- HERO PRINCIPAL -->
-  <section id="inicio" class="section">
+  <section class="section">
     <div class="hero-grid">
       <div class="hero">
-        <div class="eyebrow">Líder y Especialista en Inteligencia Artificial · Arquitecturas Empresariales</div>
+        <div class="eyebrow">IPT Solution IA · Líder y Especialista en Inteligencia Artificial</div>
         <h1>Diseña, construye y escala soluciones de IA con impacto real en tu negocio</h1>
         <p class="hero-desc">
           Acompañamos a organizaciones en la transición desde la experimentación hacia sistemas de <strong>IA Generativa, RAG y Machine Learning</strong> en producción: seguros, rentables y alineados con los objetivos corporativos.
         </p>
         <div class="hero-actions">
-          <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20C%C3%A9sar,%20quisiera%20agendar%20un%20diagn%C3%B3stico%20de%20IA%20para%20mi%20empresa." target="_blank" rel="noopener" class="btn-primary">
+          <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20Contreras,%20quisiera%20agendar%20un%20diagn%C3%B3stico%20de%20IA%20para%20mi%20empresa." target="_blank" rel="noopener" class="btn-primary">
             Agenda tu diagnóstico
           </a>
           <a href="#nosotros" class="btn-secondary">
@@ -537,7 +564,7 @@
           </a>
         </div>
         <div class="hero-meta">
-          La IA estratégica es tu mejor inversión. · 321 235 6529 · Bucaramanga, Colombia.
+          IPT Solution IA · 321 235 6529 · Bucaramanga, Colombia.
         </div>
       </div>
 
@@ -582,7 +609,7 @@
   <!-- SECCIÓN NOSOTROS / PERFIL -->
   <section id="nosotros" class="section">
     <div class="section-head">
-      <div class="eyebrow">Nosotros</div>
+      <div class="eyebrow">Nosotros · IPT Solution IA</div>
       <h2>Liderazgo técnico y visión ejecutiva para llevar la IA del piloto a resultados reales.</h2>
       <p>
         Combinamos profundidad técnica en arquitecturas modernas de Inteligencia Artificial con experiencia gerencial, auditoría de calidad y gestión del riesgo, garantizando implementaciones robustas en entornos corporativos y del sector salud.
@@ -592,7 +619,7 @@
     <div class="profile-card">
       <div class="profile-avatar">PC</div>
       <div>
-        <div style="font-size:0.8rem; font-weight:700; color:var(--brand); text-transform:uppercase; letter-spacing:0.05em;">Líder y Especialista en Inteligencia Artificial</div>
+        <div style="font-size:0.8rem; font-weight:700; color:var(--brand); text-transform:uppercase; letter-spacing:0.05em;">Director · IPT Solution IA</div>
         <h3 style="font-size:1.4rem; margin:4px 0 8px;">Dr. Paulo César Contreras</h3>
         <p style="font-size:0.93rem; color:var(--text-muted);">
           Médico y Especialista en Inteligencia Artificial, enfocado en ayudar a las empresas a diseñar, construir y escalar soluciones tecnológicas de alto impacto. Integra rigor metodológico, estándares de calidad y arquitectura de datos para transformar procesos operativos y toma de decisiones.
@@ -638,7 +665,7 @@
         El verdadero valor de la Inteligencia Artificial no está en el experimento, sino en llevar sistemas seguros y rentables a producción.
       </div>
       <div class="quote-author">
-        — Dr. Paulo César Contreras · Especialista en Inteligencia Artificial
+        — Dr. Paulo César Contreras · IPT Solution IA
       </div>
     </div>
   </section>
@@ -692,6 +719,10 @@
       <div class="loc-card">
         <div>
           <div class="loc-row">
+            <div class="loc-label">Firma</div>
+            <div class="loc-val">IPT Solution IA · Dr. Paulo Contreras</div>
+          </div>
+          <div class="loc-row">
             <div class="loc-label">Dirección</div>
             <div class="loc-val">Calle 62 No. 45-79, Barrio Terrazas</div>
           </div>
@@ -708,7 +739,7 @@
           <a href="https://www.google.com/maps/search/?api=1&query=Calle+62+45-79+Barrio+Terrazas+Bucaramanga+Colombia" target="_blank" rel="noopener" class="btn-secondary" style="justify-content:center;">
             📍 Cómo llegar en Google Maps
           </a>
-          <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20C%C3%A9sar,%20quiero%20agendar%20una%20reuni%C3%B3n." target="_blank" rel="noopener" class="btn-wa" style="justify-content:center;">
+          <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20Contreras,%20quiero%20agendar%20una%20reuni%C3%B3n." target="_blank" rel="noopener" class="btn-wa" style="justify-content:center;">
             💬 Escríbenos por WhatsApp
           </a>
         </div>
@@ -733,7 +764,7 @@
         Escríbenos por WhatsApp y conversemos sobre cómo diseñar soluciones de IA Generativa, RAG o Machine Learning alineadas con tus metas de negocio.
       </p>
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
-        <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20C%C3%A9sar,%20me%20interesa%20una%20consultor%C3%ADa%20en%20Inteligencia%20Artificial." target="_blank" rel="noopener" class="btn-wa">
+        <a href="https://wa.me/573212356529?text=Hola%20Dr.%20Paulo%20Contreras,%20me%20interesa%20una%20consultor%C3%ADa%20en%20IPT%20Solution%20IA." target="_blank" rel="noopener" class="btn-wa">
           Contactar por WhatsApp · 321 235 6529
         </a>
         <a href="#ubicanos" class="btn-secondary" style="background:rgba(255,255,255,0.12); color:#fff; border-color:rgba(255,255,255,0.28);">
@@ -746,7 +777,7 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <div>© 2026 Dr. Paulo César Contreras · Especialista en Inteligencia Artificial · Bucaramanga, Colombia</div>
+      <div>© 2026 Dr. Paulo Contreras · IPT Solution IA · Bucaramanga, Colombia</div>
       <div class="footer-links">
         <a href="https://wa.me/573212356529" target="_blank" rel="noopener">WhatsApp</a>
         <a href="#ubicanos">Ubicación</a>
